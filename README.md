@@ -62,7 +62,5 @@ curl -X POST -H "Content-Type: application/json" \
 
 
 # Deployment testing
-curl -X POST -H "Content-Type: application/json" \
-     -d '{"data": [[5.1, 3.5, 1.4, 0.2]]}' \
-     http://54.172.91.243/predict
+curl -X POST -H "Content-Type: application/json" -d '{"data": [[5.1, 3.5, 1.4, 0.2]]}' http://54.227.183.154/predict
 ```
